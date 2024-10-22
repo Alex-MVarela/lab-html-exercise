@@ -41,19 +41,20 @@ nav a {
 .magnifyingGlass {
     width: 20px;
     position: relative;
-    left: 30px;  
+    left: 10px;  
 }  
 
 .searchBar {
     display: flex;
     width:100%;
-    margin-right: 90px;
-    justify-content: flex-start;
+    margin-right: 20px;
+    position: relative;
+    right: 20px
 }
 
 .searchBox {
     background-color: rgba(0,0,0,.05);
-    width: 90%;
+    width: 100%;
     border-style:hidden;
     padding-left: 40px;
 }
@@ -62,14 +63,17 @@ nav a {
     background-color: #fb3e44;
     border-style: hidden;
     color: white;
-    padding: 10px;
+    padding: 10px 15px;
+    font-weight: bold;
 }
 
 #join {
     border: 1px solid;
     padding: 1px 10px;
+    font-weight: bold;
     position: relative;
     right: 40px;
+    margin: 30px;
 }
 
 #section1 {
